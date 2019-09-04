@@ -2,7 +2,7 @@ Package: com.saurik.cydia
 Version: 1.1.6
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman <saurik@saurik.com>
-Depends: debianutils
+Depends: apr-lib, apt7-lib, apt7-key, cydia-lproj, darwintools, debianutils, org.thebigboss.repo.icons, pcre, sed, shell-cmds, system-cmds, uikittools (>= 1.1.0)
 Filename: ./debs/cydia_1.1.6_iphoneos-arm.deb
 Size: 723578
 MD5sum: 88081293a8276658b74c2861453e3f7d
