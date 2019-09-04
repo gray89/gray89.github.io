@@ -1,3 +1,18 @@
+Package: com.saurik.cydia
+Version: 1.1.6
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman <saurik@saurik.com>
+Depends: debianutils
+Filename: ./debs/cydia_1.1.6_iphoneos-arm.deb
+Size: 723578
+MD5sum: 88081293a8276658b74c2861453e3f7d
+SHA1: 05a022dde2d22ca99ba3f4a0af4f9e6b9460b1d3
+SHA256: 23e05b33a1af7da3c58638760d5d035ec7a6745d89c4def679a5c0079d4007d6
+Section: System
+Description: Cydia Installer for ios5.1.1 jailbreak. graphical iPhone front-end for APT
+Author: Jay Freeman <saurik@saurik.com>
+Name: 0.Cydia Installer
+
 Package: com.hackyouriphone.appsync
 Version: 2.3-1
 Architecture: iphoneos-arm
