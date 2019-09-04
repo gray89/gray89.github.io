@@ -3,7 +3,7 @@ Version: 1.1.6
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman <saurik@saurik.com>
 Depends: apr-lib, apt7-lib, apt7-key, cydia-lproj, darwintools, debianutils, org.thebigboss.repo.icons, pcre, sed, shell-cmds, system-cmds, uikittools (>= 1.1.0)
-Filename: ./debs/cydia_1.1.6_iphoneos-arm.deb
+Filename: /cydia_1.1.6_iphoneos-arm.deb
 Size: 723578
 MD5sum: 88081293a8276658b74c2861453e3f7d
 SHA1: 05a022dde2d22ca99ba3f4a0af4f9e6b9460b1d3
@@ -18,7 +18,7 @@ Version: 2.3-1
 Architecture: iphoneos-arm
 Maintainer: weiphone <support@office.weiphone.com>
 Depends: mobilesubstrate
-Filename: ./debs/app.weiphone.hackyouriphone.appsync_2.3-1_iphoneos-arm.deb
+Filename: /app.weiphone.hackyouriphone.appsync_2.3-1_iphoneos-arm.deb
 Size: 4132
 MD5sum: 80d14251cfd5e050104779bebdfeadc7
 SHA1: f025755f6cee9b17fcda522df52d8a3a587b7b87
