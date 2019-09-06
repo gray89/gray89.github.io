@@ -3,7 +3,7 @@ Version: 1.1.6
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman <saurik@saurik.com>
 Depends: apr-lib, apt7-lib, apt7-key, cydia-lproj, darwintools, debianutils, org.thebigboss.repo.icons, pcre, sed, shell-cmds, system-cmds, uikittools (>= 1.1.0)
-Filename: /cydia_1.1.6_iphoneos-arm.deb
+Filename: ./debs/cydia_1.1.6_iphoneos-arm.deb
 Size: 723578
 MD5sum: 88081293a8276658b74c2861453e3f7d
 SHA1: 05a022dde2d22ca99ba3f4a0af4f9e6b9460b1d3
@@ -13,16 +13,16 @@ Description: Cydia Installer for ios5.1.1 jailbreak. graphical iPhone front-end 
 Author: Jay Freeman <saurik@saurik.com>
 Name: 0.Cydia Installer
 
-Package: com.hackyouriphone.appsync
-Version: 2.3-1
+Package: com.178.appsync
+Version: 2.3-5
 Architecture: iphoneos-arm
-Maintainer: weiphone <support@office.weiphone.com>
+Maintainer: 178 Team <apt@178.com>
 Depends: mobilesubstrate
-Filename: /app.weiphone.hackyouriphone.appsync_2.3-1_iphoneos-arm.deb
-Size: 4132
-MD5sum: 80d14251cfd5e050104779bebdfeadc7
-SHA1: f025755f6cee9b17fcda522df52d8a3a587b7b87
-SHA256: f20cd14edfe9c6a3a1c4b7cfaa998616a8aebc15eff0ffc8df954021cee67ea6
+Filename: ./debs/appsync456.178_2.3-5_iphoneos-arm.deb
+Size: 4608
+MD5sum: 62b358f106a434c88f3496e51eeea5a8
+SHA1: 1eafd5323a37130d9df603c0046b912981ab759d
+SHA256: f582beb8a6a0fa7fc72af8e90b232b3f802850156a69c781470c8b3fd81f13b7
 Section: Tweaks
 Description: Allows cracked apps/games to be synced with iTunes. This version is compatible with the following Firmwares 4.x/5.x/6.x
 Author: HYI <repo@hackyouriphone.org>
