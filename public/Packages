@@ -29,15 +29,15 @@ Author: HYI <repo@hackyouriphone.org>
 Name: 1.AppSync
 
 Package: com.rpetrich.activator
-Version: 1.5.4
+Version: 1.7.4
 Architecture: iphoneos-arm
 Maintainer: Ryan Petrich <activator@gmail.com>
-Depends: mobilesubstrate (>= 0.9.3228), preferenceloader (>= 2.0.2), firmware (>= 3.0)
-Filename: ./debs/libactivator_1.5.4_iphoneos-arm.deb
-Size: 133828
-MD5sum: f805ba7e99d70398021b9dcc2ff2e898
-SHA1: af3e0e3920028bca4b727ae3215501915bd8782d
-SHA256: 7239c2fa69d79269340b00906add31109a45b9d4d5cc04dbd0f8375d2491a644
+Depends: mobilesubstrate (>= 0.9.3228), preferenceloader (>= 2.0.4), firmware (>= 3.0)
+Filename: ./debs/libactivator_1.7.4_iphoneos-arm.deb
+Size: 325144
+MD5sum: 19fe85cd79c5d00877b5947679ee967f
+SHA1: 96d120ff1e1e638261f01395715c0306f95025a1
+SHA256: a500c0aefc2ae46052c66750a734aba69e7b080098d52cb21a89f3f69457080e
 Section: Tweaks
 Description: Centralized gestures, button and shortcut management for iOS
 Author: Ryan Petrich <activator@gmail.com>
