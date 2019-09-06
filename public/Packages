@@ -42,3 +42,18 @@ Section: Tweaks
 Description: Centralized gestures, button and shortcut management for iOS
 Author: Ryan Petrich <activator@gmail.com>
 Name: 2.Activator
+
+Package: com.fabius.bitesms
+Version: 5.5
+Architecture: iphoneos-arm
+Maintainer: biteSMS <help@bitesms.com>
+Depends: mobilesubstrate (>= 0.9.2587-1)
+Filename: ./debs/bitesms_5.5_fabius.deb.deb
+Size: 4196712
+MD5sum: 477abc6d3b9e42696d27051cf098155f
+SHA1: 554f8181020d681b3da416227b0b9e46602ac0a9
+SHA256: 17df241b412845934fbf7d17332928c530d4bdf0b9199aa3db676d4635be8347
+Section: Tweaks
+Description: Then biteSMS is for you, with lots of extra features like Smileys, Quick Reply, Quick Compose / Quick Call, Privacy, a Character / SMS Counter and much more!
+Author: biteSMS <help@bitesms.com>
+Name: 3.BiteSMS
