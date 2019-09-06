@@ -57,3 +57,18 @@ Section: Tweaks
 Description: Then biteSMS is for you, with lots of extra features like Smileys, Quick Reply, Quick Compose / Quick Call, Privacy, a Character / SMS Counter and much more!
 Author: biteSMS <help@bitesms.com>
 Name: 3.BiteSMS
+
+Package: com.fabius.ifile
+Version: 1.6.1-1
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/iFile 1.6.1-1_iphoneos-arm_fabius.deb.deb
+Size: 3418718
+MD5sum: 76077deb77fedbc0ee0f96e279f2e478
+SHA1: 5dd3034e95e9e8f723bcb83e0c3547bc46c90c1c
+SHA256: 130557519b94c82c24280f8f37160916a216ccd3d98d4d0305a8b62eccaa7a1b
+Section: Tweaks
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. 
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Name: 4.iFile
