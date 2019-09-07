@@ -133,17 +133,17 @@ Description: prevent phone.app launching when call comes
 Author: Eimji <moonhvp@yahoo.fr>
 Name: 8.PhoneCloser
 
-Package: com.gitlab.slide2kill
-Version: 0.0.7-2
+Package: com.gitlab.swipenav
+Version: 0.6-5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>= 4.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.suu.slide2kill_0.0.7-2_iphoneos-arm.deb
-Size: 45624
-MD5sum: a144f522e0c13961e2be08b9d21c3789
-SHA1: 3398760fcf1592fac75b7d61eb90723fcb0dc155
-SHA256: e4e2a2c9dbbd066044c0a45fc98241d06144f8711ffb077d08e40893337e8730
+Depends: mobilesubstrate (>= 0.9.3901), firmware (>= 3.2), preferenceloader (>= 2.0.4-1)
+Filename: ./debs/swipenav_0.6-5.deb
+Size: 65016
+MD5sum: 89480725ab349dd50061ed7529e8cccd
+SHA1: 06db2ac34a0c16752dd16b19006ccf02ccaae398
+SHA256: fa946dd6febdbf1b27e6a8c4a2272012326549084cc948828682568f6b79a4c7
 Section: Tweaks
-Description: Slide down to kill a recent app
-Author: Suu <462993145@qq.com>
-Name: 9.Slide2Kill
+Description: swipe back gesture for app Nav-bars
+Author: deVbug <devbug@devbug.me>
+Name: 9.SwipeNav
