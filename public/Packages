@@ -73,17 +73,17 @@ Description: kill all background apps from switcher
 Author: Mathieu Bolard <mattlawer08@gmail.com>
 Name: 4.KillBackground
 
-Package: com.fabius.ifile
-Version: 1.6.1-1
+Package: com.linspike.kuaidial
+Version: 0.2.3b3-37
 Architecture: iphoneos-arm
-Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Filename: ./debs/iFile 1.6.1-1_iphoneos-arm_fabius.deb.deb
-Size: 3418718
-MD5sum: 76077deb77fedbc0ee0f96e279f2e478
-SHA1: 5dd3034e95e9e8f723bcb83e0c3547bc46c90c1c
-SHA256: 130557519b94c82c24280f8f37160916a216ccd3d98d4d0305a8b62eccaa7a1b
+Maintainer: SpikeLin <linspike@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.linspike.kuaidial-beta_0.2.3b3-37.deb
+Size: 413520
+MD5sum: 8b854199cb1965e8db23bef0b0cb443f
+SHA1: af718924ceb983eb8e0213fad0e1ed6e125d2aec
+SHA256: b966aae81fc3b8d8e82d632380f597325a8f0c5426fae3ba0818f5b21da2c58e
 Section: Tweaks
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. 
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Name: 5.iFile
+Description: KuaiDial is an add-on for MobilePhone.app and MobileSMS.app
+Author: SpikeLin <linspike@gmail.com>
+Name: 5.KuaiDial
