@@ -58,17 +58,17 @@ Description: Then biteSMS is for you, with lots of extra features like Smileys, 
 Author: biteSMS <help@bitesms.com>
 Name: 3.BiteSMS
 
-Package: com.fabius.ifile
-Version: 1.6.1-1
+Package: com.mathieubolard.killbackground
+Version: 1.3.1-7
 Architecture: iphoneos-arm
-Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Filename: ./debs/iFile 1.6.1-1_iphoneos-arm_fabius.deb.deb
-Size: 3418718
-MD5sum: 76077deb77fedbc0ee0f96e279f2e478
-SHA1: 5dd3034e95e9e8f723bcb83e0c3547bc46c90c1c
-SHA256: 130557519b94c82c24280f8f37160916a216ccd3d98d4d0305a8b62eccaa7a1b
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader, applist
+Filename: ./debs/com.mathieubolard.killbackground_1.3.1-7_iphoneos-arm.deb
+Size: 71698
+MD5sum: a67106c323ca059b2b8680bd030636cd
+SHA1: b2f7cd9fcf117c24c7d558c35410376219698d0e
+SHA256: c5ad31c11a3af480d4c3e060f9bc296056d08d9e746b493e1cf29a32a7669524
 Section: Tweaks
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. 
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Name: 4.iFile
+Description: kill all background apps from switcher
+Author: Mathieu Bolard <mattlawer08@gmail.com>
+Name: 4.KillBackground
