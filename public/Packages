@@ -87,3 +87,18 @@ Section: Tweaks
 Description: KuaiDial is an add-on for MobilePhone.app and MobileSMS.app
 Author: SpikeLin <linspike@gmail.com>
 Name: 5.KuaiDial
+
+Package: com.anondev.localiapstore
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: anon dev <anondev@gmail.com>
+Depends: firmware (>= 4.3), mobilesubstrate
+Filename: ./debs/anondev.LocalIAPStore_1.0_iphoneos-arm.deb
+Size: 12632
+MD5sum: 2075baeea166b1adb256d8333fec38b7
+SHA1: 05385989a8fcd17b8c4c1c6c50bad7b6b3a8417e
+SHA256: ae10ea4e369ed06d872859f996bbefdc543248450f2f066d4e75d82c547190c5
+Section: Tweaks
+Description: Pwns In-app purchases on iOS 4.3 - 6.0 (works with developer servers,in-appstore.com DNS needed)
+Author: anon dev <anondev@gmail.com>
+Name: 6.LocalIAPStore
