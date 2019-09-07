@@ -102,3 +102,18 @@ Section: Tweaks
 Description: Pwns In-app purchases on iOS 4.3 - 6.0 (works with developer servers,in-appstore.com DNS needed)
 Author: anon dev <anondev@gmail.com>
 Name: 6.LocalIAPStore
+
+Package: com.gitlab.inorotate
+Version: 2.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, preferenceloader (>= 1.1)
+Filename: ./debs/inorotate_2.1-1.deb
+Size: 21994
+MD5sum: be15cf245defe894eaf145de2b98ae45
+SHA1: 8418c497ca7dfffec45723b0d9fb54e8aec738e8
+SHA256: 56c887e517b6a2db1741a3e0485bb2594d76112e9a40e5c0b934d2a8351cd70a
+Section: Tweaks
+Description: Turns off rotation for applications
+Author: EvilPenguin <evilpenguin@evilpengu.in>
+Name: 7.iNoRotate
