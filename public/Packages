@@ -162,3 +162,18 @@ Section: Tweaks
 Description: keyboard swipes move cursor & select text
 Author: iKy1e <freerunnering@gmail.com>
 Name: 10.SwipeSelection
+
+Package: com.gitlab.blackkeyboard
+Version: 1.0.1-2
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 4.2), mobilesubstrate
+Filename: ./debs/com.persdev.blackkeyboard_1.0.1-2_iphoneos-arm.deb
+Size: 4238
+MD5sum: fd197fefc307b971167b3afb16830ebb
+SHA1: 67f7971f8ef1119620aee8da54158857a12bc60e
+SHA256: 7c3cf83d67eb80080fb31f8ceb8e63a71a9ae7b0ca9976647dc212d8d14fd76f
+Section: Tweaks
+Description: Using this package you're able to use the fabulous black keyboard anywhere!
+Author: shafaei <alireza@shafaei.net>
+Name: 11.Black Keyboard
