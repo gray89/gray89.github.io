@@ -177,3 +177,18 @@ Section: Tweaks
 Description: Using this package you're able to use the fabulous black keyboard anywhere!
 Author: shafaei <alireza@shafaei.net>
 Name: 11.Black Keyboard
+
+Package: com.gitlab.novoicemail
+Version: 1.0-32
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debs/novoicemail_1.0-32.deb
+Size: 5962
+MD5sum: 96f75b8a85285b3f8fe887485e2f8260
+SHA1: b2b9921ef30b784dfe4ce1c127114bc1d597470c
+SHA256: 53661921e8b93c7d0ea8d9e687b8dbdab5575845d67f092fa892ed7e693c3ced
+Section: Tweaks
+Description: Removes VoiceMail button from Phone.app
+Author: Elias Limneos <iphone@limneos.net>
+Name: 12.NoVoiceMail
