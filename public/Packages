@@ -58,7 +58,7 @@ Description: Then biteSMS is for you, with lots of extra features like Smileys, 
 Author: biteSMS <help@bitesms.com>
 Name: 3.BiteSMS
 
-Package: com.gitlab.killbackground
+Package: com.ios4.killbackground
 Version: 1.3.1-7
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -73,7 +73,7 @@ Description: kill all background apps from switcher
 Author: Mathieu Bolard <mattlawer08@gmail.com>
 Name: 4.KillBackground
 
-Package: com.gitlab.kuaidial
+Package: com.ios4.kuaidial
 Version: 0.2.3b3-37
 Architecture: iphoneos-arm
 Maintainer: SpikeLin <linspike@gmail.com>
@@ -103,7 +103,7 @@ Description: Pwns In-app purchases on iOS 4.3 - 6.0 (works with developer server
 Author: anon dev <anondev@gmail.com>
 Name: 6.LocalIAPStore
 
-Package: com.gitlab.inorotate
+Package: com.ios4.inorotate
 Version: 2.1-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -118,7 +118,7 @@ Description: Turns off rotation for applications
 Author: EvilPenguin <evilpenguin@evilpengu.in>
 Name: 7.iNoRotate
 
-Package: com.gitlab.phonecloser
+Package: com.ios4.phonecloser
 Version: 1.2.2-5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -133,7 +133,7 @@ Description: prevent phone.app launching when call comes
 Author: Eimji <moonhvp@yahoo.fr>
 Name: 8.PhoneCloser
 
-Package: com.gitlab.swipenav
+Package: com.ios4.swipenav
 Version: 0.6-5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -148,7 +148,7 @@ Description: swipe back gesture for app Nav-bars
 Author: deVbug <devbug@devbug.me>
 Name: 9.SwipeNav
 
-Package: com.gitlab.swipeselection
+Package: com.ios4.swipeselection
 Version: 1.3.2-8
 Architecture: iphoneos-arm
 Maintainer: Feng.com <support@office.feng.com>
@@ -163,7 +163,7 @@ Description: keyboard swipes move cursor & select text
 Author: iKy1e <freerunnering@gmail.com>
 Name: 10.SwipeSelection
 
-Package: com.gitlab.blackkeyboard
+Package: com.ios4.blackkeyboard
 Version: 1.0.1-2
 Architecture: iphoneos-arm
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
@@ -178,7 +178,7 @@ Description: Using this package you're able to use the fabulous black keyboard a
 Author: shafaei <alireza@shafaei.net>
 Name: 11.Black Keyboard
 
-Package: com.gitlab.novoicemail
+Package: com.ios4.novoicemail
 Version: 1.0-32
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -192,18 +192,3 @@ Section: Tweaks
 Description: Removes VoiceMail button from Phone.app
 Author: Elias Limneos <iphone@limneos.net>
 Name: 12.NoVoiceMail
-
-Package: com.gitlab.unlockvol
-Version: 1.0-2
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0), preferenceloader
-Filename: ./debs/unlockvol_1.0-2.deb
-Size: 6352
-MD5sum: 1c51b088d8ddd6387a8e27d01ae76d3e
-SHA1: 2b393be3613da9ed8b72299858aff16d37af150a
-SHA256: 9c0fa94ffb1d457eaf63c3ebed81d5969c77612e2e6631875039afa54eed36bb
-Section: Utilities
-Description: Allow adjusting volume from lockscreen.
-Author: PoomSmart <poomst@hotmail.com>
-Name: 13.UnlockVol
