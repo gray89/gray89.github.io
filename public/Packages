@@ -148,7 +148,7 @@ Description: swipe back gesture for app Nav-bars
 Author: deVbug <devbug@devbug.me>
 Name: 9.SwipeNav
 
-Package: com.sogou.sogouinput
+Package: com.sogou.sogouinputiphone4
 Version: 1.5.0-13186
 Architecture: iphoneos-arm
 Maintainer: Sogou <mobile_sogou@sohu.com>
@@ -162,3 +162,18 @@ Section: Tweaks
 Description: Sogou Input supports English, numeric and simplified Chinese language. It has 2 layouts, and supports hardware QWERTY keyboard. Wide symbols and emoticons coverage, safety dictionary backup process and popular vocabulary can be update at any times. 
 Author: Sogou <mobile_sogou@sohu.com>
 Name: 10.SogouInput
+
+Package: com.gitlab.ifile
+Version: 1.6.1-1
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/iFile 1.6.1-1_iphoneos-arm_fabius.deb.deb
+Size: 3418718
+MD5sum: 76077deb77fedbc0ee0f96e279f2e478
+SHA1: 5dd3034e95e9e8f723bcb83e0c3547bc46c90c1c
+SHA256: 130557519b94c82c24280f8f37160916a216ccd3d98d4d0305a8b62eccaa7a1b
+Section: Tweaks
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. 
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Name: 11.iFile
