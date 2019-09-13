@@ -1,0 +1,29 @@
+Package: com.gitlab.appsync
+Version: 2.3-5
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Depends: mobilesubstrate
+Filename: ./debs/appsync456.178_2.3-5_iphoneos-arm.deb
+Size: 4608
+MD5sum: 62b358f106a434c88f3496e51eeea5a8
+SHA1: 1eafd5323a37130d9df603c0046b912981ab759d
+SHA256: f582beb8a6a0fa7fc72af8e90b232b3f802850156a69c781470c8b3fd81f13b7
+Section: Tweaks
+Description: Allows cracked apps/games to be synced with iTunes. This version is compatible with the following Firmwares 4.x/5.x/6.x
+Author: HYI <repo@hackyouriphone.org>
+Name: 1.AppSync
+
+Package: com.gitlab.activator
+Version: 1.7.4
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <activator@gmail.com>
+Depends: mobilesubstrate (>= 0.9.3228), preferenceloader (>= 2.0.4), firmware (>= 3.0)
+Filename: ./debs/libactivator_1.7.4_iphoneos-arm.deb
+Size: 325144
+MD5sum: 19fe85cd79c5d00877b5947679ee967f
+SHA1: 96d120ff1e1e638261f01395715c0306f95025a1
+SHA256: a500c0aefc2ae46052c66750a734aba69e7b080098d52cb21a89f3f69457080e
+Section: Tweaks
+Description: Centralized gestures, button and shortcut management for iOS
+Author: Ryan Petrich <activator@gmail.com>
+Name: 2.Activator
