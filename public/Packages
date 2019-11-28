@@ -39,7 +39,7 @@ MD5sum: 26c525fc0551c4f9c165dd2a806fc693
 SHA1: 79d1294d5bcee6fa41557e0cbdd2b2283c08ac3b
 SHA256: 2bebc701aa576a015312e75e0d259bf435dbe517f73f739908830bd323b68e21
 Section: System
-Description: 安装自定义空间需要升级0.6.3进行，回到0.3正常加载。如需备份还原升级0.6.3，兼容加载0.3。备份还原后回到0.3，交替使用很方便，加载必须ssh root@localhost
+Description: 0.6.3 can be uesd for custom dualboot system space and for backup & restore, after that can returen to 0.3 for normal boot. The interactive process can be easy. Caution must use: ssh root@localhost
 Author: CoolBooter <coolbooterios@gmail.com>
 Name: 3.CoolBooter CLI(install backup restore)
 
@@ -57,3 +57,18 @@ Section: System
 Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices. Caution must use: ssh root@localhost
 Author: CoolBooter <coolbooterios@gmail.com>
 Name: 4.CoolBooter CLI(boot)
+
+Package: com.gitlab.iosterminal
+Version: 1.0.2-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.0),  dpkg (>= 1.14.25-8), bash, coreutils, ncurses, system-cmds
+Filename: ./debs/com.ichitaso.mobileterminal_1.0.2-2_iphoneos-arm.deb
+Size: 190764
+MD5sum: e25a5c8309553ce22693f057c75a5a14
+SHA1: 40812ccbcae8951b8810627d8bd54cbb08bf5673
+SHA256: e270f12d3c28cd675d2857816b84f1f9a3242f1f3f34745ce21093b6d65cc471
+Section: System
+Description: Terminal emulator for ios5 and later
+Author: ichitaso <terminal@gmail.com>
+Name: 5.iOS Terminal
