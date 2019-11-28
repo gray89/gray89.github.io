@@ -1,4 +1,4 @@
-Package: com.gitlab.appsync
+Package: com.ios5.appsync
 Version: 2.3-5
 Architecture: iphoneos-arm
 Maintainer: 178 Team <apt@178.com>
@@ -13,7 +13,7 @@ Description: Allows cracked apps/games to be synced with iTunes. This version is
 Author: HYI <repo@hackyouriphone.org>
 Name: 1.AppSync
 
-Package: com.gitlab.activator
+Package: com.ios5.activator
 Version: 1.7.4
 Architecture: iphoneos-arm
 Maintainer: Ryan Petrich <activator@gmail.com>
@@ -41,7 +41,7 @@ SHA256: 2bebc701aa576a015312e75e0d259bf435dbe517f73f739908830bd323b68e21
 Section: System
 Description: 0.6.3 can be uesd for custom dualboot system space and for backup & restore, after that can returen to 0.3 for normal boot. The interactive process can be easy. Caution must use: ssh root@localhost
 Author: CoolBooter <coolbooterios@gmail.com>
-Name: 3.CoolBooter CLI(install backup restore)
+Name: 3.CoolBooter CLI(install backup restore with 0.3 uninstalled)
 
 Package: com.gitlab.coolbootercli
 Version: 0.3
@@ -56,9 +56,9 @@ SHA256: a929762f343a579f36a8d391230e328fc3271da3ba8143c36699ac0598ea1f62
 Section: System
 Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices. Caution must use: ssh root@localhost
 Author: CoolBooter <coolbooterios@gmail.com>
-Name: 4.CoolBooter CLI(boot)
+Name: 4.CoolBooter CLI(boot with 0.6.3 uninstalled)
 
-Package: com.gitlab.iosterminal
+Package: com.ichitaso.iosterminal
 Version: 1.0.2-2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -72,3 +72,33 @@ Section: System
 Description: Terminal emulator for ios5 and later
 Author: ichitaso <terminal@gmail.com>
 Name: 5.iOS Terminal
+
+Package: com.fuyuchi.flex2
+Version: 1.980
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware(>= 5.1), mobilesubstrate (>= 0.9.5000), firmware (<< 7.0) | com.rpetrich.rocketbootstrap (>= 1.0)
+Filename: ./debs/com.fuyuchi.flex2_1.980_iphoneos-arm.deb
+Size: 1531948
+MD5sum: 5d1360e5a09738ef43508fce2b61a127
+SHA1: 80ea81f25e08f901c622a9013740e524399a958c
+SHA256: f6ed1add9ee36bdf637a6ff69e9842f06d3fd94de128323d8181217e1ec3856d
+Section: Tweaks
+Description: Easily make your own tweaks, and share them on the Flex Community Cloud.
+Author: John Coates <acapulco1988@gmail.com>
+Name: 6.Flex2(cracked standby only)
+
+Package: com.ios5.flex
+Version: 1.121
+Architecture: iphoneos-arm
+Maintainer: WeiPhone.com <support@office.weiphone.com>
+Depends: firmware(>= 5.0), mobilesubstrate
+Filename: ./debs/app.weiphone.myrepospace.zsm1703.flexpackagebeta-ct_1.121_iphoneos-arm.deb
+Size: 375024
+MD5sum: cfd98fdec71ffaa5c54960604da7f0c2
+SHA1: 66857a215df4fd32b5793fbedc877a81510cdaa8
+SHA256: 5fdc332a7e2d78e4b4cb841f69156817ed8c1525f6fec03867bcf30c3d8023c6
+Section: Tweaks
+Description: make your own tweaks,  Flex Chinese Private Cloud
+Author: ooeekyo <ooeekyo@vip.qq.com>
+Name: 7.Flex(with Flex2 uninstalled)
