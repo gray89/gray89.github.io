@@ -131,4 +131,34 @@ SHA256: fa4071c019802716b655af6b5e01d4f9555fd587255d917b53a35d5fe01e4031
 Section: Tweaks
 Description: Frustrated with the built-in Messages app? Want more features? Wish it was much quicker to compose or reply to messages? Then biteSMS is for you, with lots of extra features like Quick Reply, Quick Compose, Scheduled Messages, Auto-Forward, Auto-Retry, Passcode Lock, Privacy, Delivery Reports, Contact Pics, Easy Pick Smileys, Templates, Signatures and much more!<br><br>Simply use biteSMS as a complete souped-up replacement to the built-in Messages application on iPhone devices.
 Author: biteSMS <help@bitesms.com>
-Name: 2.BiteSMS
+Name: 9.BiteSMS
+
+Package: com.ios5.clearbadges
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0)
+Filename: ./debs/clearbadges_1.0.1.deb
+Size: 17260
+MD5sum: 8d8f9dc8a0a3c5df48ea382a8fba5617
+SHA1: d1b32dc275b63c5d7af50e92c50ea263874b05d0
+SHA256: 814bdf125f3ac5bb6305bf0a5669c9e20ec84c8b6bdc382ad9b40d11515f410c
+Section: Tweaks
+Description: Double-tap app icon while it jiggles
+Author: Ma Jun <majun3@gmail.com>
+Name: 10.Clear Badges
+
+Package: com.ios5.fastblurrednotificationcenter
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <fastblurrednotificationcenter@gmail.com>
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: ./debs/com.rpetrich.fastblurrednotificationcenter_0.2_iphoneos-arm.deb
+Size: 4606
+MD5sum: b105d9ffdddf811180842563aba111be
+SHA1: 5cc4cf6718d6a8c16f31eebd08966154f7a2d20b
+SHA256: c323775b4533e19cd69e0c850b7bc14601a7868d33daf278bd25f2e63f4452fd
+Section: Tweaks
+Description: More efficient version of BlurriedNCBackground
+Author: Ryan Petrich <fastblurrednotificationcenter@gmail.com>
+Name: 11.FastBlurredNotificationCenter
