@@ -192,3 +192,33 @@ Section: Tweaks
 Description: kill all background apps from switcher
 Author: Mathieu Bolard (mattlawer) <mattlawer08@gmail.com>
 Name: 13.KillBackground
+
+Package: com.ios5.kuaidial
+Version: 0.2.4b3-40
+Architecture: iphoneos-arm
+Maintainer: SpikeLin <linspike@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/kuaidial-beta_0.2.4b3-40_iphoneos-arm.deb
+Size: 422082
+MD5sum: 4428e4f6ccc75f5ca93bc584ea4bcb80
+SHA1: a36798ea96e29d5fb4ab337bb2211ba34792459f
+SHA256: 72e41fef76b73329becc2250bfe8fa01584c2f3ba9b3152f995a447a55440999
+Section: Tweaks
+Description: KuaiDial is an add-on for MobilePhone.app and MobileSMS.app
+Author: SpikeLin <linspike@gmail.com>
+Name: 14.KuaiDial
+
+Package: com.ios5.localiapstore
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: anondev <anondev@gmail.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/anondev.localiapstore_1.0-2_iphoneos-arm.deb
+Size: 27320
+MD5sum: 5764e8e3086a8141c778d3d75418ec55
+SHA1: 016be338535f982471c492650fe5712e7c3f7ffa
+SHA256: 8913d4afb3c81477f800ac0cd4c5963624e008b88395a143dbea8361d71e7984
+Section: Tweaks
+Description: Pwns In-app purchases on iOS 4.3 - 6.x.x (works with developer servers,in-appstore.com DNS needed) ||| §³hangelog 1.0-2: *Bugfixes ||| §³hangelog 1.0-1: *Crashes fixed *Multiple purchase fixed |||
+Author: anondev <anondev@gmail.com>
+Name: 15.LocalIAPStore
