@@ -222,3 +222,63 @@ Section: Tweaks
 Description: Pwns In-app purchases on iOS 4.3 - 6.x.x (works with developer servers,in-appstore.com DNS needed) ||| §³hangelog 1.0-2: *Bugfixes ||| §³hangelog 1.0-1: *Crashes fixed *Multiple purchase fixed |||
 Author: anondev <anondev@gmail.com>
 Name: 15.LocalIAPStore
+
+Package: com.ios5.nonewsisgoodnews
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.rpetrich.nonewsisgoodnews_1.0.1_iphoneos-arm.deb
+Size: 5196
+MD5sum: 63cfe1310555ccc36b5a9bb16267a9ab
+SHA1: d14869c266a3314408bf037a94d2dfc4dfe11568
+SHA256: fc43d6bd8a87199e6c9f805449de5e2513a8f84d4a92ee12cfc4f4572e546e91
+Section: Tweaks
+Description: Hide Newsstand icon and relocate apps to SpringBoard
+Author: Ryan Petrich <nonewsisgoodnews@gmail.com>
+Name: 16.NoNewsIsGoodNews
+
+Package: com.ios5.phonecloser
+Version: 1.2.2-5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 4.0)
+Filename: ./debs/phonecloser_1.2.2-5.deb
+Size: 24246
+MD5sum: 448a9eb3d6af6ed1e261e106aa19150a
+SHA1: 213a2a4a5931064e73068edece4117fbb83e2c8f
+SHA256: adcea1a13876086f29cf50adbb6efed3933a446de262a659fff8a3ce9dbe09fe
+Section: Tweaks
+Description: prevent phone.app launching when call comes
+Author: Eimji <moonhvp@yahoo.fr>
+Name: 17.PhoneCloser
+
+Package: com.ios5.switcherland
+Version: 1.1.0-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware(>= 5.0), mobilesubstrate(>= 0.9.3901), cy+model.iphone | cy+model.ipod
+Filename: ./debs/com.btpankow.switcherland_1.1.0-2_iphoneos-arm.deb
+Size: 10434
+MD5sum: 1755ffff474e1ed4c4469c30d575ed97
+SHA1: b941f6718ccee1988e66b80f960ef85cbe1b2d49
+SHA256: be64c8e27f1ff891c56b863ae7b901af0b81039fa4d373fc65988794273be860
+Section: Tweaks
+Description: landscape app switcher & orientation lock
+Author: BTPankow <BTPankow.dev@gmail.com>
+Name: 18.SwitcherLand
+
+Package: com.ios5.sogouinput
+Version: 1.5.0-13186
+Architecture: iphoneos-arm
+Maintainer: mobile_sogou <mobile_sogou@sohu.com>
+Depends: mobilesubstrate (>=0.9.3367-1), firmware (>= 4.0), firmware (<< 6.0)
+Filename: ./debs/SogouInputIPhone4-1.5.0-0112-13186.deb
+Size: 5439416
+MD5sum: b52515f830354b2b7ebd3613c661a3c4
+SHA1: 0b4ad972fe5edcb679f90ea0d5e3a914b2ead96d
+SHA256: 1c7d6d219aea2c8c327527443d8130cb1fe488474e61226230ec28f4d2d232ac
+Section: Tweaks
+Description: Sogou Input supports English, numeric and simplified Chinese language. It has 2 layouts, and supports hardware QWERTY keyboard. Wide symbols and emoticons coverage, safety dictionary backup process and popular vocabulary can be update at any times. 
+Author: mobile_sogou <mobile_sogou@sohu.com>
+Name: 19.SogouInput
