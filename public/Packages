@@ -343,36 +343,6 @@ Description: Removes VoiceMail button from Phone.app
 Author: Elias Limneos <iphone@limneos.net>
 Name: 23.NoVoiceMail
 
-Package: com.ios5.clearonopen
-Version: 1.0.0-2
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/clearonopen_1.0.0-2.deb
-Size: 2054
-MD5sum: b591018bc6d77d80c908a831c5886a25
-SHA1: 0d024564f7ef6283678adabdb81f06512c6e0a4e
-SHA256: af13e6290d084e8c2c490e30e6e9b70a5b2e038ee8a11f2b33e9806ecefb4a12
-Section: Tweaks
-Description: automatically clear Spotlight results
-Author: MattCMultimedia <mattcmultimedia@gmail.com>
-Name: 24.ClearOnOpen
-
-Package: com.ios5.otrlocation
-Version: 2.7.2-2
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0)
-Filename: ./debs/otrlocation_2.7.2-2.deb
-Size: 3490840
-MD5sum: 3ce2de2a032b71d581b8f30973a33d11
-SHA1: d28eeb356579a14d71653df1febe36ed7d24fa6f
-SHA256: b2447f3c833f0340d107447afc30e84aeec8062b5f64582c1254969389fdd2ea
-Section: Tweaks
-Description: Free tool to change your GPS location & device model!
-Author: onTheRoadStudio <ontheroadstudio@live.cn>
-Name: 25.Anywhere
-
 Package: com.ios5.colorprofiles
 Version: 1.1
 Architecture: iphoneos-arm
@@ -386,4 +356,19 @@ SHA256: c972262e9d01ec8e3aecefed82e582f6ed832dff2b090c3168f9bf5c3e6f0c75
 Section: Tweaks
 Description: Customizable screen colour adjustment including color temperature
 Author: Ryan Petrich <colorprofiles@gmail.com>
-Name: 26.Color Profiles
+Name: 24.Color Profiles
+
+Package: com.ios5.define
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 5.0), com.saurik.substrate.safemode, com.chpwn.weeloader
+Filename: ./debs/com.ravirajm.define_1.0_iphoneos-arm.deb
+Size: 16466
+MD5sum: 0ab926cadf5416f11e083c5cdc864a53
+SHA1: 8a5b1f12a0962821ea74ae2ea123d3c9bd2aefa0
+SHA256: 04e73e4b3d9c0a86d40fa58973e02827891fb5ecd1867119a995fd67467716a1
+Section: Tweaks
+Description: Search dictionary from NC Center
+Author: rvirajm <rvirajm@gmail.com>
+Name: 25.Define
