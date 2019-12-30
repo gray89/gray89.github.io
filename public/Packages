@@ -372,3 +372,18 @@ Section: Tweaks
 Description: Search dictionary from NC Center
 Author: rvirajm <rvirajm@gmail.com>
 Name: 25.Define
+
+Package: com.ios5.retinapad
+Version: 1.3.7k
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), applist (>= 1.5.7), cydia (>= 1.1.1), curl, firmware (<< 7.0) | com.rpetrich.rocketbootstrap (>= 1.0.1), firmware (<< 7.0) | libactivator (>= 1.8.3)
+Filename: ./debs/com.hackyouriphone.retinapad_1.3.7k_iphoneos-arm.deb
+Size: 269932
+MD5sum: 8eca25581cd2ac6074f0f20b45b4517c
+SHA1: d1eac484f19339fd9a4e183b98c0036499cf40d0
+SHA256: 12a26232067d696d10b01577d933f1218cf0dc8938f83331d44f4b09f67c7d6b
+Section: Tweaks
+Description: Enable Retina Display for iPhone apps on iPad
+Author: Ryan Petrich <repo@hackyouriphone.org>
+Name: 26.RetinaPad
